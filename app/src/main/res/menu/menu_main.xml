@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/main_menu"
+        android:title="@string/app_name"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/hotel_menu"
+        android:title="@string/title_activity_hotel"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/bar_menu"
+        android:title="@string/title_activity_bar"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/tour_menu"
+        android:title="@string/title_activity_tour"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/town_menu"
+        android:title="@string/title_activity_town"
+        android:orderInCategory="100"/>
+
+    <item android:id="@+id/about_menu"
+        android:title="@string/title_activity_about"
+        android:orderInCategory="100"/>
+
+</menu>
