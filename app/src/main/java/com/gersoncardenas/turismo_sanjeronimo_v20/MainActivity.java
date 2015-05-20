@@ -106,6 +106,7 @@ public class MainActivity extends ActionBarActivity {
         fragmentTransaction = fragmentManager.beginTransaction();
 
         //noinspection SimplifiableIfStatement
+
         if (id == R.id.main_menu) {
             fragmentTransaction.replace(android.R.id.content, mainFragment).commit();
         }

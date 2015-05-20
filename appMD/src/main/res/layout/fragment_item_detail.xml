@@ -1,0 +1,9 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="android.support.v4.app.DialogFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/fragment"
+    tools:context=".ItemDetailFragment"/>
+
